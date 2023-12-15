@@ -1,0 +1,4 @@
+data=read.csv("Heart Failure Clinical Records - Heart Failure Clinical Records.csv")
+View(data)
+model=lm(age~platelets+diabetes,data=data)
+summary(model)
